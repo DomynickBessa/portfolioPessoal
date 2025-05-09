@@ -6,11 +6,18 @@
     /* font-family: "Open Sans", sans-serif; */
 }
 
+:root {
+    --primary: #000000;
+    --background: #f3efef;
+    --text: #333;
+    --accent: #9E9E9E;
+    --font: 'Montserrat', sans-serif;
+}
 body{
     height: 100vh;
-    font-family: 'Poppins', sans-serif;
-    background-color: #f3efef;
-    color: #333;
+    font-family: var(--font);
+    background-color: var(--background);
+    color: var(--text);
 }
 
 .header-container{
@@ -102,10 +109,11 @@ main section > .apresentation-container img {
 }
 
 footer {
-    background-color: #5c5c5c;
-    color: #fff;
+    /* background-color: #fff; */
+    color: var(--accent);
     bottom: 0;
     position: fixed;
     width: 100%;
     text-align: center;
+    border-top: 1px solid #e0e0e0;
 }
