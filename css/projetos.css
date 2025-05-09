@@ -28,7 +28,7 @@ main h1 {
 
 .projects-container a {
     display: inline-block;
-    transition: transform 0.3s ease;
+    transition: 0.3s;
 }
 
 .projects-container a:hover {
