@@ -34,9 +34,3 @@ main h1 {
 .projects-container a:hover {
     transform: scale(1.1);
 }
-
-.projects-container img {
-    width: 60px;
-    height: 60px;
-    object-fit: contain;
-}
