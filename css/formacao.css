@@ -1,0 +1,25 @@
+.education {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+.education h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.education-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.education-item p {
+    font-size: 1rem;
+    color: #666;
+}

@@ -1,0 +1,62 @@
+#formulario {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+}
+
+#formulario .interface {
+    width: 100%;
+    max-width: 1000px;
+    background-color: #ffffff;
+    padding: 40px 60px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+#formulario h1 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Modifica os inputs e o text area, inclui o btn pq ele está em um input */
+#formulario form input,
+#formulario form textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    transition: border 0.3s ease;
+}
+
+/* Modifica os campos para ficar em destaque quando clica */
+#formulario form input:focus,
+#formulario form textarea:focus {
+    border-color: #000;
+    background-color: #fff;
+    outline: none; /* Remove o contorno padrão */
+}
+
+#formulario form textarea {
+    min-height: 120px;
+}
+
+/* Estilização do btn */
+#formulario .btn-env input[type="submit"] {
+    background-color: #5c5c5c;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+#formulario .btn-env input[type="submit"]:hover {
+    background-color: #000;
+    transform: scale(1.05);
+}

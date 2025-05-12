@@ -2,7 +2,7 @@
     --primary: #000000;
     --background: #f3efef;
     --text: #333;
-    --accent: #9E9E9E;
+    --font-color: #9E9E9E;
     --font: 'Montserrat', sans-serif;
 }
 
@@ -24,7 +24,7 @@ section#home-name h1 {
 
 .subtitulo {
     font-size: 2rem;
-    color: var(--accent);
+    color: var(--font-color);
     margin-bottom: 32px;
     max-width: 600px;
     margin-left: auto;

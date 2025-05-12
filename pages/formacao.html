@@ -1,58 +1,74 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- FONTES -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet" />
     <!-- FONTES FIM  -->
     <title>Portfólio Pessoal</title>
-    <link rel="stylesheet" href="../style.css">>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../css/formacao.css" />
 </head>
+
 <body>
     <header>
         <div class="header-container">
-                <a href="../home.html" rel="prev">
-                    <img id="logo" src="../assets/image/assets_task_01jsq0fjegfmste8rs2fwn15qp_1745602769_img_0.webp" alt="Iniciais DB">
+            <a href="../home.html" rel="prev">
+                <img id="logo" src="../assets/image/logo.webp" alt="Iniciais DB" />
+            </a>
+            <nav class="menu">
+                <ul>
+                    <li><a href="sobremim.html" rel="next">🧶 Sobre Mim</a></li>
+                    <li><a href="formacao.html" rel="next">🎓 Minha Educação</a></li>
+                    <li><a href="projetos.html" rel="next">📦 Meus Projetos</a></li>
+                    <li><a href="contato.html" rel="next">📬 Contato</a></li>
+                </ul>
+            </nav>
+            <div class="button-cv">
+                <a href="../assets/document/curriculo-domynick.pdf" download="">
+                    <button>Baixar CV</button>
                 </a>
-                
-                <!-- <h1>Domynick Bessa</h1> -->
-                <nav class="menu">
-                    <ul>
-                        <li><a href="sobremim.html" rel="next">🧶 Sobre Mim</a></li>
-                        <li><a href="formacao.html" rel="next">🎓 Minha Educação</a></li>
-                        <li><a href="projetos.html" rel="next">📦 Meus Projetos</a></li>
-                        <li><a href="contato.html" rel="next">📬 Contato</a></li>
-                    </ul>
-                </nav>
-                <div class="button-cv">
-                    <a href="../assets/document/curriculo-domynick.pdf" download="">
-                        <button>Baixar CV</button>
-                    </a> 
-                </div>
-        </div><!--header-container-->     
+            </div>
+        </div>
     </header>
+
     <main>
         <section class="education">
-            <div class="education-container">
-                <h2>Educação</h2>
-                <div class="education-content">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/>
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/>
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br/>
-                    Duis aute irure 
-                    </p>
-                </div>
+            <h2>Educação</h2>
+            <div class="education-content">
+                <p>
+                    Atualmente, estou no terceiro semestre do curso de Ciência da
+                    Computação pela Uninter, tendo iniciado minha graduação na UNIP,
+                    onde cursei um semestre anteriormente. Ao longo da minha formação,
+                    busquei complementar meus estudos com experiências práticas e
+                    técnicas, como o curso intensivo de Desenvolvimento Web Full-Stack
+                    da Trybe (com carga horária de 1500h), que me proporcionou uma boa
+                    base em tecnologias modernas de front-end e back-end.<br /><br />
+
+                    Também concluí o curso de redes CCNA da Cisco, onde desenvolvi
+                    conhecimentos em infraestrutura de redes. Recentemente, atuei como estagiária de
+                    automação RPA na Compass UOL, onde tive a oportunidade de aplicar
+                    habilidades técnicas em projetos reais, trabalhando com
+                    metodologias ágeis e times multidisciplinares.
+                </p>
             </div>
         </section>
     </main>
+
     <footer class="footer">
-        <p>Desenvolvido por Domynick Bessa - 2025 | Todos os direitos reservados</p>
-        <p><a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by pocike - Flaticon</a></p>
+        <p>
+            Desenvolvido por Domynick Bessa - 2025 | Todos os direitos reservados
+        </p>
+        <p>
+            <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by pocike -
+                Flaticon</a>
+        </p>
     </footer>
 </body>
 </html>
